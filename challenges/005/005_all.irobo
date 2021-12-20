@@ -1,0 +1,14 @@
+# Ouvrir la carte 005_a
+# Faire avancer le robot jusqu'à attraper l'objectif? Attention pour vous diriger, vous devez vous servir des points blancs.
+# Modifier l’algorithme pour qu’il fonctionne sur les cartes 005_a, 005_b, 005_c, 005_d
+
+repeter {
+    avance(1)
+    si(blancDevant) {
+        avance(1)
+        droite 
+    } sinon si (baliseDevant) {
+        prendre
+        sortie
+    }
+}

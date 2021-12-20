@@ -1,0 +1,24 @@
+# Ouvrir la carte 009_a
+# Faire en sorte que le robot résolve le labyrinthe jusqu’à l’objectif.
+# Faire en sorte que le programme fonctionne également sur la carte 009_b.
+
+
+repeter(){	
+    si(obstacleADroite){
+        si(rienDevant){
+            avance(1)
+        }
+        sinon{
+            gauche
+        }
+    }
+    sinon{
+        droite
+        avance
+    }
+
+    si(baliseDevant){	
+        prendre()
+        sortie
+    }
+}

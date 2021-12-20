@@ -1,0 +1,90 @@
+# Ouvrir la carte 001
+# Ecrire votre prénom
+
+# Début
+gauche
+avance(8)
+droite
+avance(1)
+
+
+# A
+peindreEnNoir
+avance(4)
+droite
+avance(2)
+droite
+avance(2)
+droite
+avance(2)
+recule(2)
+gauche
+avance(2)
+gauche
+arreterDePeindre
+avance(1)
+
+
+# U
+peindreEnNoir
+gauche
+avance(2)
+gauche(2) 
+avance(2)
+gauche
+avance(2)
+gauche
+avance(2)
+gauche
+gauche
+avance(2)
+gauche
+arreterDePeindre
+avance(1)
+
+
+# N
+peindreEnNoir
+gauche
+avance(2)
+droite
+avance(2)
+droite
+avance(2)
+gauche
+arreterDePeindre
+avance(1)
+
+
+# I
+gauche
+peindreEnNoir
+avance(2)
+arreterDePeindre
+avance(1)
+peindreEnNoir
+arreterDePeindre
+recule(1)
+peindreEnNoir
+recule(2)
+droite
+arreterDePeindre
+avance(1)
+
+
+# M
+gauche
+peindreEnNoir
+avance(2)
+droite
+avance(1)
+droite
+avance(2)
+recule(2)
+gauche
+avance(1)
+droite
+avance(2)
+gauche
+arreterDePeindre
+avance(1)

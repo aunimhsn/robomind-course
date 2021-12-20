@@ -1,0 +1,26 @@
+# Même exercice que le 007, cependant vous ne devez pas dupliquer de ligne de code.
+# Pensez à utiliser une fonction  
+
+
+droite
+
+repeterTantQue(!blancDevant) {
+    avance(1)
+}
+
+repeter {
+    si(blancDevant) {
+        avance(1)
+    }
+    sinon si(blancADroite) {
+        droite
+        avance(1)
+    }
+    sinon si(blancAGauche) {
+        gauche
+        avance(1)
+    }
+    sinon {
+        sortie
+    }
+}
