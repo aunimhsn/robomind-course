@@ -2,3 +2,8 @@
 # Écrire un programme permettant de trouver la tâche blanche.
 # Ouvrir la map 004_b
 # Modifier le programme pour qu’il fonctionne sur les deux cartes.
+
+avance(5)
+gauche
+avance(1)
+

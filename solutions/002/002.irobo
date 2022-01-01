@@ -1,2 +1,10 @@
 # Ouvrir la carte 002.map
 # Ecrire un programme qui peint une ligne blanche sur la ligne noire
+
+gauche
+avance(1)
+peindreEnBlanc
+droite
+avance(3)
+arreterDePeindre
+avance(1)

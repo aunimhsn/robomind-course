@@ -2,3 +2,13 @@
 # Faire avancer le robot jusqu'à attraper l'objectif? Attention pour vous diriger, vous devez vous servir des points blancs.
 # Modifier l’algorithme pour qu’il fonctionne sur les cartes 005_a, 005_b, 005_c, 005_d
 
+repeterTantQue(!blancDevant) {
+    avance(1)
+}
+
+avance(1)
+droite
+avance(8)
+prendre
+
+

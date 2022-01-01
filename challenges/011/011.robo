@@ -1,0 +1,6 @@
+# Solution: This solution uses a randomwalk to
+# find both the white line and the potholes.
+# An additional challenge would be to 
+# figure out a more efficient algorithm.
+# Another challenge would be to come up with
+# a stopping criterion when the robot is ready.

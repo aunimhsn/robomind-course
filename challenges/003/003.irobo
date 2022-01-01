@@ -1,17 +1,2 @@
 # Ouvrir la carte 003.map
 # Suivre le chemin en utilisant des boucles.
-
-avance(1)
-droite
-avance(3)
-
-repeter(3){
-    avance(2)
-    droite
-    avance(2)
-    gauche
-    avance(2)
-    gauche
-    avance(2)
-    droite
-}
